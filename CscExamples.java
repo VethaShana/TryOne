@@ -3,6 +3,7 @@ class CscExamples{
 	String BookName;
 	String category;
 
+<<<<<<< HEAD
 	public void setBookNo(int b){
 		bookNo = b;
 	}
@@ -25,4 +26,15 @@ class CscExamples{
 		return category;
 	}
 
+=======
+	public void BookCollection(int a)
+	{
+		bookNo= a+1;
+	}
+
+	public void BookCategory(String t){
+		category=t;
+	}
+	
+>>>>>>> csc
 }
